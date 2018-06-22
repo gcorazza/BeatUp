@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <title>BeatUp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center><h1>BeatUp</h1></center>
+        <center><canvas id="gameCanvas" width="750" height="750" style="border:1px solid #000000;" ></canvas></center>
+        <center>Enter gameID, if you want to play with a friend</center>
+        <center><input id="gameID" type="text"></center>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+        <script  src="astar.js"></script>
+        <script  src="main.js"></script>
+        
+    </body>
+</html>
